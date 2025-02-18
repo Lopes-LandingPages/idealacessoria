@@ -1,0 +1,63 @@
+.services {
+    border-top: 2px solid #333;
+    padding-top: 50px;
+    background-color: var(--background-primary);
+    height: 400px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+}
+.services .pattern img {
+    height: 400px;
+}
+.services .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.services .text h3 {
+    color: var(--color-firth);
+    font-family: "Manrope", serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.services .text h3::first-line {
+    color: white;
+}
+.services .text ul {
+    display: flex;
+    flex-direction: column;
+}
+.services .text li {
+    line-height: 25px;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    color: white;
+}
+.services .text li::before {
+    content: "+ ";
+    color: var(--color-firth);
+    font-family: "Inter", serif;
+    font-size: 16px;
+}
+.services .text a {
+    background-color: var(--color-firth);
+    margin: auto;
+    width: 166px;
+    height: 34px;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 4px;
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+}
+.services .text a:hover {
+
+}

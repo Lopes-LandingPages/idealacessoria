@@ -1,0 +1,45 @@
+.diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    background-color: #2B2A2B;
+}
+.selo-da-marca {
+    position: absolute;
+    margin-top: -150px;
+}
+.diferenciais h3 {
+    margin-top: 120px;
+    color: white;
+    font-family: var(--font-tittle);
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.diferenciais .container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.diferenciais .item {
+    width: 300px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-tittle);
+}
+.diferenciais .item-tittle {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color-firth);
+    padding-bottom: 10px;
+    text-align: center;
+}
+.diferenciais .item-description {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.fundadores {
+    padding: 100px;
+    background-image: url(../images/background-fundadores.png);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}

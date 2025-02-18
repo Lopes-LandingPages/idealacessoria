@@ -1,0 +1,17 @@
+:root {
+    --cursor-default: url(../images/icons/cursor.svg), auto;
+    --cursor-pointer: url(../images/cursor/pointer-mouse.svg), auto;
+}
+html {
+    cursor: var(--cursor-default);
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color:var(--background-primary);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-firth);
+    border-radius: 5px;
+}
